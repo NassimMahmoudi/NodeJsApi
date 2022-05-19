@@ -1,0 +1,31 @@
+{
+  "name": "testapi",
+  "version": "1.0.0",
+  "description": "test api chames slim ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NassimMahmoudi/testApi.git"
+  },
+  "author": "Nassim Mahmoudi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NassimMahmoudi/testApi/issues"
+  },
+  "homepage": "https://github.com/NassimMahmoudi/testApi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
